@@ -82,21 +82,21 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # 数据库配置
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysite',
-        'USER': 'wy',
-        'PASSWORD': 'mysql',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'OPTIONS': {
-            "init_command": "SET foreign_key_checks = 0;",
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'mysite',
+    #     'USER': 'wy',
+    #     'PASSWORD': 'mysql',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '3306',
+    #     'OPTIONS': {
+    #         "init_command": "SET foreign_key_checks = 0;",
+    #     }
+    # }
 }
 
 REST_FRAMEWORK = {

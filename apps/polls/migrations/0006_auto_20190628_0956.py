@@ -4,7 +4,7 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
+    atomic = False
     dependencies = [
         ('polls', '0005_auto_20190627_1532'),
     ]
