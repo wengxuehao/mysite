@@ -1,0 +1,8 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}"/>
+<ul>
+{% for man in data %}
+    <li>{{ man.name }}</li>
+{% endfor %}
+</ul>

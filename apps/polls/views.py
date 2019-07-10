@@ -82,6 +82,14 @@ def results(request, question_id):
     return render(request, 'results.html', {'question': question})
 
 
+class ManListView(View):
+    def get(self, request):
+        mans = Man_Model.objects.all()
+        serializers = ManSerializer(mans, many=True)
+        data = serializers.data
+        return render(request, 'man_list.html', {"data": data})
+
+
 class ManView(View):
     def get(self, request):
         mans = Man_Model.objects.all()
@@ -89,7 +97,7 @@ class ManView(View):
         data = serializers.data
         print(type(data))
         # JsonResponse在抛出列表的时候需要将safe设置为False safe=False
-        return JsonResponse(data=data, safe=False,json_dumps_params={'ensure_ascii': False})
+        return JsonResponse(data=data, safe=False, json_dumps_params={'ensure_ascii': False})
 
 
 class UserViewSet(viewsets.ModelViewSet):

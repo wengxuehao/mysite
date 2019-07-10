@@ -1,6 +1,9 @@
 li a {
-    color: green;
+    color: pink ;
     font-size: 30px;
+}
+li {
+    color:deeppink;
 }
 body {
     background: white url("../images/background.png") no-repeat;
