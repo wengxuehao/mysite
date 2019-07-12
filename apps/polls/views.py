@@ -87,7 +87,7 @@ class ManListView(View):
         mans = Man_Model.objects.all()
         serializers = ManSerializer(mans, many=True)
         data = serializers.data
-        return render(request, 'man_list.html', {"data": data})
+        return render(request, 'man_list.html', {"man_list": data})
 
 
 class ManView(View):

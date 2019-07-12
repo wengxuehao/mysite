@@ -1,8 +1,10 @@
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
 <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}"/>
+<script src="{% static 'js/vue.min.js' %}"></script>
+<script src="{% static 'js/man.js' %}"></script>
 <ul>
-{% for man in data %}
+{% for man in man_list %}
     <li>{{ man.name }}</li>
 {% endfor %}
 </ul>
