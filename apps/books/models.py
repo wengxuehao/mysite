@@ -20,9 +20,10 @@ class Publisher(models.Model):
 
 
 class Author(models.Model):
-    first_name = models.CharField(max_length=30)
-    last_name = models.CharField(max_length=40)
-    email = models.EmailField()
+    # verbose_name 用作显示在后台的列名称
+    first_name = models.CharField(max_length=30,verbose_name='姓氏')
+    last_name = models.CharField(max_length=40,verbose_name='名字')
+    email = models.EmailField(verbose_name='郵箱')
 
     class Meta:
         db_table = 'Author_table'

@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="137">
+          <list size="141">
             <item index="0" class="java.lang.String" itemvalue="django-gulp" />
             <item index="1" class="java.lang.String" itemvalue="Babel" />
             <item index="2" class="java.lang.String" itemvalue="pickleshare" />
@@ -142,6 +142,10 @@
             <item index="134" class="java.lang.String" itemvalue="pyparsing" />
             <item index="135" class="java.lang.String" itemvalue="Flask" />
             <item index="136" class="java.lang.String" itemvalue="idna" />
+            <item index="137" class="java.lang.String" itemvalue="mysql-python" />
+            <item index="138" class="java.lang.String" itemvalue="mysql" />
+            <item index="139" class="java.lang.String" itemvalue="MySQL-python" />
+            <item index="140" class="java.lang.String" itemvalue="mysqldb" />
           </list>
         </value>
       </option>

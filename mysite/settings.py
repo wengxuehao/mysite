@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     # 使用额外的ui框架需要写在最前
-    'simpleui',
+    # 'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
     # 'django.contrib.sites',
@@ -44,17 +44,22 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'apps.polls',
+    'apps.books'
 
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    # 后台管理自动切换成本地的语言--，并确保它
+    # 在’django.contrib.sessions.middleware.SessionMiddleware’* 之后*
+    # "django.middleware.locale.LocaleMiddleware",
     'django.middleware.common.CommonMiddleware',
     # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -87,18 +92,18 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # 数据库配置
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysite',
-        'USER': 'wengxh',
-        'PASSWORD': 'mysql',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'mysite',
+    #     'USER': 'wengxh',
+    #     'PASSWORD': 'mysql',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '3306',
+    # }
 }
 
 REST_FRAMEWORK = {
