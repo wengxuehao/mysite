@@ -58,6 +58,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mysite.urls'
+# 它将作为URLconf告诉Django在这个站点中那些Python的模块将被用到
+# 相对应的文件是mysite/urls.py
+# 然后按顺序逐个匹配URLconf里
+# 的URLpatterns，直到找到一个匹配的。 当找到这个匹配 的URLpatterns就调用相关联的view函数，并把
+# HttpRequest 对象作为第一个参数。
 
 TEMPLATES = [
     {

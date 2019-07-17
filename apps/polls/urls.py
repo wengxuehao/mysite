@@ -19,6 +19,6 @@ urlpatterns = [
     # ex: /polls/5/vote/
     path('<int:question_id>/vote/', views.vote, name='vote'),
     path('get_man/', views.ManListView.as_view(), name='man_list'),
-    path('get_man/', views.ManView.as_view(), name='get_man')
+    # path('get_man/', views.ManView.as_view(), name='get_man')
 
 ]

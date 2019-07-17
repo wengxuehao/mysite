@@ -21,13 +21,13 @@ from rest_framework import routers
 
 from apps.polls import views
 
-router = routers.DefaultRouter()
+# router = routers.DefaultRouter()
 # router.register(r'users', views.UserViewSet)
 # router.register(r'groups', views.GroupViewSet)
 # router.register(r'polls', views.ManView)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('polls/', include('apps.polls.urls')),
-    path('', include(router.urls)),
+    # path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]

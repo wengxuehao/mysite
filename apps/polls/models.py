@@ -87,3 +87,20 @@ class Album(models.Model):
     name = models.CharField(max_length=100)
     release_date = models.DateField()
     num_stars = models.IntegerField()
+
+
+class Publisher(models.Model):
+    name = models.CharField(max_length=30)
+    address = models.CharField(max_length=50)
+    city = models.CharField(max_length=60)
+    state_province = models.CharField(max_length=30)
+    country = models.CharField(max_length=50)
+    website = models.URLField()
+
+    class Meta:
+        # 自定义表名称
+        db_table = 'Publisher_model'
+        verbose_name = 'publisher'
+
+    def __str__(self):
+        return self.name

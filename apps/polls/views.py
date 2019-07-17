@@ -1,9 +1,11 @@
+import datetime
+
 from django.contrib.auth.models import User, Group
 from django.shortcuts import render
 
 # Create your views here.
 
-from django.http import HttpResponseRedirect, HttpResponse, JsonResponse
+from django.http import HttpResponseRedirect, HttpResponse, JsonResponse, Http404
 from django.urls import reverse
 from django.views import View
 from rest_framework.generics import get_object_or_404
@@ -90,14 +92,14 @@ class ManListView(View):
         return render(request, 'man_list.html', {"man_list": data})
 
 
-class ManView(View):
-    def get(self, request):
-        mans = Man_Model.objects.all()
-        serializers = ManSerializer(mans, many=True)
-        data = serializers.data
-        print(type(data))
-        # JsonResponse在抛出列表的时候需要将safe设置为False safe=False
-        return JsonResponse(data=data, safe=False, json_dumps_params={'ensure_ascii': False})
+# class ManView(View):
+#     def get(self, request):
+#         mans = Man_Model.objects.all()
+#         serializers = ManSerializer(mans, many=True)
+#         data = serializers.data
+#         print(type(data))
+#         # JsonResponse在抛出列表的时候需要将safe设置为False safe=False
+#         return JsonResponse(data=data, safe=False, json_dumps_params={'ensure_ascii': False})
 
 
 class UserViewSet(viewsets.ModelViewSet):
