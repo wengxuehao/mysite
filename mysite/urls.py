@@ -28,6 +28,8 @@ from apps.polls import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('polls/', include('apps.polls.urls')),
+    path('books/', include('apps.books.urls')),
     # path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path(r'search/', include('haystack.urls')),
 ]

@@ -35,6 +35,8 @@ ALLOWED_HOSTS = ["*"]
 INSTALLED_APPS = [
     # 使用额外的ui框架需要写在最前
     # 'simpleui',
+    'haystack',
+    'whoosh',
     'django.contrib.admin',
     'django.contrib.auth',
     # 'django.contrib.sites',
@@ -92,18 +94,18 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # 数据库配置
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
     # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'mysite',
-    #     'USER': 'wengxh',
-    #     'PASSWORD': 'mysql',
-    #     'HOST': '127.0.0.1',
-    #     'PORT': '3306',
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mysite',
+        'USER': 'wengxh',
+        'PASSWORD': 'mysql',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
 }
 
 REST_FRAMEWORK = {
@@ -198,3 +200,14 @@ LOGGING = {
         },
     }
 }
+# 添加搜索引擎配置
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_cn_backend.WhooshEngine',
+        'PATH': os.path.join(BASE_DIR, 'whoosh_index'),
+    }
+}
+# 每页显示搜索结果数目为10
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 10
+# 自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'

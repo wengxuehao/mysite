@@ -34,7 +34,7 @@ class Book(models.Model):
     title = models.CharField(max_length=100)
     authors = models.ManyToManyField(Author)
     publisher = models.ForeignKey(Publisher,on_delete=models.CASCADE)
-    publication_date = models.DateField()
+    # publication_date = models.DateField()
 
     class Meta:
         db_table = 'Book_table'

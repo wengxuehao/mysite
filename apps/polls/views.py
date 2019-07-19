@@ -1,7 +1,7 @@
 import datetime
 
 from django.contrib.auth.models import User, Group
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 
 # Create your views here.
 
@@ -35,6 +35,10 @@ from apps.polls.serializers import ManSerializer, UserSerializer, GroupSerialize
 import logging
 
 logger = logging.getLogger('django')
+
+
+def search_form(request):
+    return render_to_response('search_form.html')
 
 
 def index(request):
