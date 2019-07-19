@@ -32,6 +32,9 @@ from rest_framework import viewsets, views
 # from django_polls.polls.models import Question, Choice
 from apps.polls.models import Question, Choice, Man_Model
 from apps.polls.serializers import ManSerializer, UserSerializer, GroupSerializer
+import logging
+
+logger = logging.getLogger('django')
 
 
 def index(request):
@@ -86,10 +89,19 @@ def results(request, question_id):
 
 class ManListView(View):
     def get(self, request):
-        mans = Man_Model.objects.all()
-        serializers = ManSerializer(mans, many=True)
-        data = serializers.data
-        return render(request, 'man_list.html', {"man_list": data})
+        # logger.info("请求路径：%s" % request.path)
+        # logger.info("请求是否是https：%s" % request.is_secure())
+        # logger.info("请求headers:%s" % request.META)
+        # # logger.info(request.headers)
+        # mans = Man_Model.objects.all()
+        # serializers = ManSerializer(mans, many=True)
+        # data = serializers.data
+        # return render(request, 'man_list.html', {"man_list": data})
+        values = request.META.items()
+        html = []
+        for k, v in values:
+            html.append('<tr><td>%s</td><td>%s</td></tr>' % (k, v))
+        return HttpResponse('<table>%s</table>' % '\n'.join(html))
 
 
 # class ManView(View):
