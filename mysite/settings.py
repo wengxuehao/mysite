@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ["*"]
 INSTALLED_APPS = [
     # 使用额外的ui框架需要写在最前
     # 'simpleui',
-    'haystack',
+    # 'haystack',
     'whoosh',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -105,6 +105,10 @@ DATABASES = {
         'PASSWORD': 'mysql',
         'HOST': '127.0.0.1',
         'PORT': '3306',
+        'TEST': {
+            'CHARSET': 'utf8',
+            'COLLATION': 'utf8_general_ci'
+        }
     }
 }
 
@@ -211,3 +215,16 @@ HAYSTACK_CONNECTIONS = {
 HAYSTACK_SEARCH_RESULTS_PER_PAGE = 10
 # 自动生成索引
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 'default': {
+    #     'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+    #     'LOCATION': '127.0.0.1:11211',
+    # }
+}

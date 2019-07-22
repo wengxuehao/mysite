@@ -398,3 +398,43 @@ INFO 2019-07-19 16:31:33,811 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%
 INFO 2019-07-19 16:31:36,566 basehttp 154 "GET /books/search_form/?q=weng HTTP/1.1" 200 198
 INFO 2019-07-19 16:31:56,343 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 77
 INFO 2019-07-19 16:32:05,860 basehttp 154 "GET /books/search/?q=%E4%B9%A6%E7%B1%8D HTTP/1.1" 200 77
+INFO 2019-07-19 16:32:37,272 basehttp 154 "GET /books/search/?q=%E4%B9%A6%E7%B1%8D HTTP/1.1" 200 142
+INFO 2019-07-19 16:32:40,681 basehttp 154 "GET /books/search/?q=%E4%B9%A6%E7%B1%8D HTTP/1.1" 200 142
+INFO 2019-07-19 16:33:47,537 basehttp 154 "GET /books/search/?q=. HTTP/1.1" 200 72
+INFO 2019-07-22 16:19:30,835 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 16:19:57,319 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 16:20:44,376 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 16:21:21,120 autoreload 203 D:\wxh\mysite\mysite\settings.py changed, reloading.
+INFO 2019-07-22 16:21:21,782 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 16:21:27,004 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 16:22:27,577 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 16:22:43,315 autoreload 576 Watching for file changes with StatReloader
+WARNING 2019-07-22 16:22:49,194 log 228 Not Found: /
+WARNING 2019-07-22 16:22:49,195 basehttp 154 "GET / HTTP/1.1" 404 2242
+WARNING 2019-07-22 16:22:49,327 log 228 Not Found: /favicon.ico
+WARNING 2019-07-22 16:22:49,327 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+INFO 2019-07-22 16:23:03,618 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+INFO 2019-07-22 16:23:11,236 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 77
+INFO 2019-07-22 16:23:16,060 basehttp 154 "GET /books/search/?q=weng HTTP/1.1" 200 75
+INFO 2019-07-22 16:23:34,210 autoreload 203 D:\wxh\mysite\mysite\settings.py changed, reloading.
+INFO 2019-07-22 16:23:34,820 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 16:26:37,608 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:10:41,404 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:10:51,215 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:12:24,903 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:12:46,804 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:13:17,252 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:13:54,664 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:14:00,167 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:14:30,767 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:15:31,573 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:15:42,524 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:17:10,132 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:18:18,310 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 18:19:39,495 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 21:19:51,608 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 21:22:00,316 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 21:24:28,042 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 21:25:07,899 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 21:25:28,275 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-22 21:28:25,713 autoreload 203 C:\Anaconda\envs\envtest\Lib\site-packages\django\conf\locale\__init__.py changed, reloading.
