@@ -443,3 +443,161 @@ WARNING 2019-07-22 21:49:19,373 basehttp 154 "GET / HTTP/1.1" 404 2242
 WARNING 2019-07-22 21:49:19,501 log 228 Not Found: /favicon.ico
 WARNING 2019-07-22 21:49:19,501 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
 INFO 2019-07-22 21:49:31,336 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+INFO 2019-07-24 10:57:29,085 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 10:58:07,764 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:00:48,213 autoreload 203 C:\Anaconda\envs\envtest\Lib\site-packages\django\db\backends\mysql\base.py changed, reloading.
+INFO 2019-07-24 11:00:49,169 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:01:05,936 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:03:37,160 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:04:47,477 autoreload 203 C:\Anaconda\envs\envtest\Lib\site-packages\docutils\__init__.py changed, reloading.
+INFO 2019-07-24 11:04:52,574 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:08:15,295 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:28:11,124 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:30:14,205 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 11:31:48,913 autoreload 203 C:\Anaconda\envs\envtest\Lib\site-packages\django\db\backends\mysql\base.py changed, reloading.
+INFO 2019-07-24 11:31:51,382 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:34:38,496 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:35:39,383 autoreload 203 C:\Anaconda\envs\envtest\Lib\site-packages\docutils\core.py changed, reloading.
+INFO 2019-07-24 12:35:40,288 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:38:05,896 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:38:28,820 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:38:37,751 autoreload 203 D:\wxh\mysite\mysite\settings.py changed, reloading.
+INFO 2019-07-24 12:38:38,597 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:40:44,554 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:41:15,021 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:41:25,014 autoreload 203 C:\Anaconda\envs\envtest\Lib\site-packages\django\db\backends\mysql\base.py changed, reloading.
+INFO 2019-07-24 12:41:25,793 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:43:59,104 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 12:48:14,964 autoreload 576 Watching for file changes with StatReloader
+INFO 2019-07-24 13:09:41,157 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-24 13:09:53,543 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-24 13:11:35,549 autoreload 586 Watching for file changes with StatReloader
+WARNING 2019-07-24 13:19:12,901 log 228 Not Found: /
+WARNING 2019-07-24 13:19:12,902 basehttp 154 "GET / HTTP/1.1" 404 2242
+WARNING 2019-07-24 13:19:13,017 log 228 Not Found: /favicon.ico
+WARNING 2019-07-24 13:19:13,017 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+INFO 2019-07-24 13:19:19,842 basehttp 154 "GET /polls/get_man/ HTTP/1.1" 200 7215
+INFO 2019-07-24 13:19:24,521 basehttp 154 "GET /polls/ HTTP/1.1" 200 187
+INFO 2019-07-24 13:19:24,528 basehttp 154 "GET /static/css/style.css HTTP/1.1" 200 203
+INFO 2019-07-24 13:19:24,550 basehttp 154 "GET /static/images/favicon.ico HTTP/1.1" 200 1459819
+INFO 2019-07-24 13:19:24,550 basehttp 154 "GET /static/images/background.png HTTP/1.1" 200 1724105
+INFO 2019-07-24 13:20:00,681 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+INFO 2019-07-24 13:20:07,922 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142
+ERROR 2019-07-24 13:20:36,880 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 22, in search
+    conn = get_redis_connection('django')
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django_redis\__init__.py", line 14, in get_redis_connection
+    cache = caches[alias]
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\cache\__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'django' in settings.CACHES
+ERROR 2019-07-24 13:20:36,881 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 78153
+ERROR 2019-07-24 13:21:19,121 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 22, in search
+    conn = get_redis_connection('django')
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django_redis\__init__.py", line 14, in get_redis_connection
+    cache = caches[alias]
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\cache\__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'django' in settings.CACHES
+ERROR 2019-07-24 13:21:19,123 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 78288
+INFO 2019-07-24 13:21:23,703 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+WARNING 2019-07-24 13:21:23,727 log 228 Not Found: /favicon.ico
+WARNING 2019-07-24 13:21:23,728 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+ERROR 2019-07-24 13:21:25,832 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 22, in search
+    conn = get_redis_connection('django')
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django_redis\__init__.py", line 14, in get_redis_connection
+    cache = caches[alias]
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\cache\__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'django' in settings.CACHES
+ERROR 2019-07-24 13:21:25,833 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 78153
+INFO 2019-07-24 13:21:48,633 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+WARNING 2019-07-24 13:21:48,653 log 228 Not Found: /favicon.ico
+WARNING 2019-07-24 13:21:48,654 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+ERROR 2019-07-24 13:21:51,362 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 22, in search
+    conn = get_redis_connection('django')
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django_redis\__init__.py", line 14, in get_redis_connection
+    cache = caches[alias]
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\cache\__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'django' in settings.CACHES
+ERROR 2019-07-24 13:21:51,363 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 78153
+INFO 2019-07-24 13:22:08,107 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+WARNING 2019-07-24 13:22:08,126 log 228 Not Found: /favicon.ico
+WARNING 2019-07-24 13:22:08,126 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+ERROR 2019-07-24 13:22:10,764 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 23, in search
+    name = conn.set('name', 'zhangsan', 10000).decode('utf-8')
+AttributeError: 'bool' object has no attribute 'decode'
+ERROR 2019-07-24 13:22:10,765 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 70650
+INFO 2019-07-24 13:22:32,598 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142
+INFO 2019-07-24 13:27:42,622 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2019-07-24 13:27:42,647 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2019-07-24 13:27:42,670 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1829
+INFO 2019-07-24 13:27:42,680 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2019-07-24 13:27:42,680 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2019-07-24 13:27:42,682 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2019-07-24 13:27:42,943 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2019-07-24 13:27:42,958 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1829
+INFO 2019-07-24 13:27:42,971 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-07-24 13:27:42,998 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2019-07-24 13:27:43,004 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2019-07-24 13:27:45,173 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1958
+INFO 2019-07-24 13:27:45,197 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2019-07-24 13:27:51,793 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1962
+INFO 2019-07-24 13:27:57,398 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2019-07-24 13:27:57,421 basehttp 154 "GET /admin/ HTTP/1.1" 200 6994
+INFO 2019-07-24 13:27:57,429 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2019-07-24 13:27:57,433 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2019-07-24 13:27:57,434 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-07-24 13:28:02,798 basehttp 154 "GET /admin/ HTTP/1.1" 200 6994
+INFO 2019-07-24 13:29:18,976 basehttp 154 "GET /admin/ HTTP/1.1" 200 7004
+INFO 2019-07-24 13:29:18,987 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2019-07-24 13:29:18,987 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2019-07-24 13:29:18,988 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2019-07-24 13:29:18,992 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-07-24 13:29:19,005 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2019-07-24 13:29:19,007 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2019-07-24 13:29:19,007 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-07-24 13:29:19,007 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2019-07-24 13:29:19,008 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+WARNING 2019-07-24 13:29:19,047 log 228 Not Found: /favicon.ico
+WARNING 2019-07-24 13:29:19,047 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293

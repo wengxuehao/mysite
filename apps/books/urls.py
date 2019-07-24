@@ -4,7 +4,6 @@
 # @ File　　  :urls.py
 # @Software  :PyCharm
 from django.urls import path
-
 # from apps.books.views import MySearchView
 from . import views
 

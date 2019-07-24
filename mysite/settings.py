@@ -34,9 +34,9 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     # 使用额外的ui框架需要写在最前
-    # 'simpleui',
+    'simpleui',
     # 'haystack',
-    'whoosh',
+    # 'whoosh',
     'django.contrib.admin',
     'django.contrib.auth',
     # 'django.contrib.sites',
