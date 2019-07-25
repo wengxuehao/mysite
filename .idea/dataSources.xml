@@ -12,7 +12,7 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mysite@localhost" uuid="0131e9ed-10b3-4974-97c4-9417159a4ab2">
+    <data-source source="LOCAL" name="mysite@localhost" uuid="48c170d8-7e9b-407c-883c-04734e7ceef9">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>

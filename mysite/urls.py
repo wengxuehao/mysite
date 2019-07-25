@@ -29,6 +29,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('polls/', include('apps.polls.urls')),
     path('books/', include('apps.books.urls')),
+    # path('high/',include('apps.high.urls')),
     # path('', ''),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     # path(r'search/', include('haystack.urls')),

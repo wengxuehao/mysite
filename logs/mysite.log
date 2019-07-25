@@ -601,3 +601,80 @@ INFO 2019-07-24 13:29:19,007 basehttp 154 "GET /static/admin/fonts/Roboto-Regula
 INFO 2019-07-24 13:29:19,008 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
 WARNING 2019-07-24 13:29:19,047 log 228 Not Found: /favicon.ico
 WARNING 2019-07-24 13:29:19,047 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+INFO 2019-07-24 13:52:12,704 basehttp 154 "GET /admin/ HTTP/1.1" 200 11811
+INFO 2019-07-24 13:52:12,713 basehttp 154 "GET /static/admin/simpleui/static/css/style.css HTTP/1.1" 200 12993
+INFO 2019-07-24 13:52:12,716 basehttp 154 "GET /static/admin/simpleui/layui/css/layui.css HTTP/1.1" 200 69523
+INFO 2019-07-24 13:52:12,718 basehttp 154 "GET /static/admin/simpleui/layui/layui.js HTTP/1.1" 200 5923
+INFO 2019-07-24 13:52:12,718 basehttp 154 "GET /static/admin/simpleui/static/js/vip_comm.js HTTP/1.1" 200 10214
+INFO 2019-07-24 13:52:12,718 basehttp 154 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 85659
+INFO 2019-07-24 13:52:16,545 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142
+WARNING 2019-07-24 13:52:16,621 log 228 Not Found: /favicon.ico
+WARNING 2019-07-24 13:52:16,622 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+INFO 2019-07-24 13:52:20,931 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+INFO 2019-07-24 13:52:23,365 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142
+INFO 2019-07-24 13:53:11,668 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142
+INFO 2019-07-24 13:53:28,691 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142
+ERROR 2019-07-24 13:53:45,317 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 18, in search
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2019-07-24 13:53:45,318 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 70721
+WARNING 2019-07-24 13:53:45,481 log 228 Not Found: /favicon.ico
+WARNING 2019-07-24 13:53:45,481 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2293
+ERROR 2019-07-24 13:53:52,104 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 18, in search
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2019-07-24 13:53:52,104 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 70460
+ERROR 2019-07-24 13:54:10,861 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 18, in search
+    if not request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2019-07-24 13:54:10,863 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 500 70603
+ERROR 2019-07-24 13:54:14,003 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 18, in search
+    if not request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2019-07-24 13:54:14,004 basehttp 154 "GET /books/search/ HTTP/1.1" 500 70016
+ERROR 2019-07-24 13:54:55,499 log 228 Internal Server Error: /books/search/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\books\views.py", line 18, in search
+TypeError: 'bool' object is not callable
+ERROR 2019-07-24 13:54:55,500 basehttp 154 "GET /books/search/ HTTP/1.1" 500 67441
+INFO 2019-07-24 13:55:02,912 basehttp 154 "GET /books/search/ HTTP/1.1" 200 257
+INFO 2019-07-24 13:55:05,253 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142
+INFO 2019-07-24 14:16:46,748 basehttp 154 "GET /books/search/?q=%E5%9F%9F%E5%90%8D HTTP/1.1" 200 142

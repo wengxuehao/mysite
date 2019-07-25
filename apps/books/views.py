@@ -15,11 +15,12 @@ def search_form(request):
 
 
 def search(request):
+
     if 'q' in request.GET and request.GET['q']:
         conn = get_redis_connection('default')
         name = conn.set('name', 'zhangsan', 10000)
         print(name)
-        print(request.user)
+        print('当前登陆系统的用户：%s' % request.user)
         q = request.GET['q']
         books = Book.objects.filter(title__icontains=q)
         return render_to_response('search_results.html',
