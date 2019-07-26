@@ -1,3 +1,8 @@
+# _*_coding:utf-8 _*_
+# @Time　　:2019/7/25   11:17
+# @Author　 : wy
+# @ File　　  :dev.py
+# @Software  :PyCharm
 """
 Django settings for mysite project.
 
@@ -26,7 +31,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 SECRET_KEY = 'y87l%01s)c%)5q_v!9t4=ln#+jikyix@h-g0bvo2si89p1*#aq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -34,7 +39,7 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     # 使用额外的ui框架需要写在最前
-    # 'simpleui',
+    'simpleui',
     # 'haystack',
     # 'whoosh',
     'django.contrib.admin',
@@ -67,7 +72,7 @@ MIDDLEWARE = [
 
 SEND_BROKEN_LINK_EMAILS = True
 MANAGERS = (
-    ('wengxh', '1041668005@qq.com'),
+ ('wengxh', '1041668005@qq.com'),
 )
 ROOT_URLCONF = 'mysite.urls'
 # 它将作为URLconf告诉Django在这个站点中那些Python的模块将被用到
@@ -254,5 +259,3 @@ EMAIL_HOST_USER = 'wengxh_09@163.com'
 EMAIL_HOST_PASSWORD = 'wxh19950905'
 # 收件人看到的发件人
 EMAIL_FROM = 'python<wengxh_09@163.com>'
-SESSION_EXPIRE_AT_BROWSER_CLOSE = True
-# 如果 SESSION_EXPIRE_AT_BROWSER_CLOSE 设置为 True ，当浏览器关闭时，Django会使cookie失效。

@@ -8,6 +8,12 @@ from django.urls import path
 from apps.high import views
 
 appname = 'high'
-# urlpatterns = [
-#     (r'^articles/(\d{4})/(\d{2})/(\d{2})/$', views.day_archive)
-# ]
+urlpatterns = [
+    path('about', views.about_pages),
+    path('image', views.my_image),
+    path('csv', views.unruly_passengers_csv),
+    path('pdf', views.hello_pdf),
+    path('zhuce',views.register),
+    path('index',views.index)
+
+]

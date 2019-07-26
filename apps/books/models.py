@@ -54,3 +54,6 @@ class Book(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_book_author(self):
+        return self.authors
