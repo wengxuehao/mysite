@@ -1060,3 +1060,262 @@ INFO 2019-07-26 10:38:07,648 basehttp 154 "GET /high/pdf HTTP/1.1" 200 1413
 INFO 2019-07-26 10:39:45,856 autoreload 586 Watching for file changes with StatReloader
 INFO 2019-07-26 10:39:52,425 autoreload 213 D:\wxh\mysite\apps\high\views.py changed, reloading.
 INFO 2019-07-26 10:39:53,265 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-26 10:50:30,498 basehttp 154 "GET /high/zhuce HTTP/1.1" 200 997
+INFO 2019-07-26 13:30:44,709 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-26 13:30:53,208 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2019-07-26 13:30:53,238 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1839
+INFO 2019-07-26 13:30:53,257 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:53,258 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:53,258 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2019-07-26 13:30:53,273 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:53,330 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:53,331 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:55,342 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1969
+INFO 2019-07-26 13:30:55,364 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:58,888 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2019-07-26 13:30:58,919 basehttp 154 "GET /admin/ HTTP/1.1" 200 7004
+INFO 2019-07-26 13:30:58,927 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:58,931 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2019-07-26 13:30:58,931 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2019-07-26 13:31:02,876 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 7490
+INFO 2019-07-26 13:31:02,893 basehttp 154 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2019-07-26 13:31:02,901 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:31:02,902 basehttp 154 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2019-07-26 13:31:02,905 basehttp 154 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2019-07-26 13:31:02,905 basehttp 154 "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2019-07-26 13:31:02,905 basehttp 154 "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+INFO 2019-07-26 13:31:02,910 basehttp 154 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2019-07-26 13:31:02,912 basehttp 154 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2019-07-26 13:31:02,913 basehttp 154 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+INFO 2019-07-26 13:31:02,914 basehttp 154 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2019-07-26 13:31:02,915 basehttp 154 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2019-07-26 13:31:02,915 basehttp 154 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2019-07-26 13:31:02,950 basehttp 154 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2019-07-26 13:31:02,951 basehttp 154 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2019-07-26 13:31:04,718 basehttp 154 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 16727
+INFO 2019-07-26 13:31:04,734 basehttp 154 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2019-07-26 13:31:04,736 basehttp 154 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+INFO 2019-07-26 13:31:04,736 basehttp 154 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12322
+INFO 2019-07-26 13:31:04,738 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:31:04,739 basehttp 154 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2019-07-26 13:31:04,740 basehttp 154 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+INFO 2019-07-26 13:31:04,744 basehttp 154 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2019-07-26 13:31:04,745 basehttp 154 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2019-07-26 13:31:04,745 basehttp 154 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2019-07-26 13:31:04,829 basehttp 154 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2019-07-26 13:31:04,830 basehttp 154 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2019-07-26 13:31:04,831 basehttp 154 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2019-07-26 13:31:04,831 basehttp 154 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2019-07-26 13:31:04,831 basehttp 154 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2019-07-26 13:31:26,987 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 7490
+INFO 2019-07-26 13:31:29,042 basehttp 154 "GET /admin/auth/ HTTP/1.1" 200 2898
+INFO 2019-07-26 13:31:30,411 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 3500
+INFO 2019-07-26 13:31:30,424 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:31:32,686 basehttp 154 "GET /admin/auth/group/add/ HTTP/1.1" 200 9408
+INFO 2019-07-26 13:31:32,699 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:31:35,650 basehttp 154 "GET /admin/ HTTP/1.1" 200 7004
+INFO 2019-07-26 13:41:34,208 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 3500
+INFO 2019-07-26 13:41:34,223 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:41:36,911 basehttp 154 "GET /admin/auth/group/add/ HTTP/1.1" 200 9408
+INFO 2019-07-26 13:41:36,925 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:41:41,940 basehttp 154 "POST /admin/auth/group/add/ HTTP/1.1" 200 10157
+INFO 2019-07-26 13:41:41,954 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:41:52,498 basehttp 154 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2019-07-26 13:41:52,535 basehttp 154 "GET /admin/auth/group/add/ HTTP/1.1" 200 9624
+INFO 2019-07-26 13:41:52,549 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:41:54,932 basehttp 154 "GET /admin/auth/ HTTP/1.1" 200 2898
+INFO 2019-07-26 13:41:56,241 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 7755
+INFO 2019-07-26 13:41:56,256 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:41:58,190 basehttp 154 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 16773
+INFO 2019-07-26 13:41:58,215 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:42:08,117 basehttp 154 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2019-07-26 13:42:08,150 basehttp 154 "GET /admin/auth/user/add/ HTTP/1.1" 200 5883
+INFO 2019-07-26 13:42:08,177 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:42:10,364 basehttp 154 "GET /admin/auth/ HTTP/1.1" 200 2898
+INFO 2019-07-26 13:42:11,573 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 7755
+INFO 2019-07-26 13:42:11,586 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 13:42:16,175 basehttp 154 "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 7512
+INFO 2019-07-26 13:42:16,198 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-07-26 16:13:13,269 autoreload 213 D:\wxh\mysite\mysite\settings.py changed, reloading.
+INFO 2019-07-26 16:13:14,188 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-26 16:40:52,653 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-26 16:41:10,128 basehttp 154 "GET /high/zhuce HTTP/1.1" 200 997
+WARNING 2019-07-26 16:41:19,047 log 228 Forbidden (CSRF token missing or incorrect.): /high/zhuce
+WARNING 2019-07-26 16:41:19,047 basehttp 154 "POST /high/zhuce HTTP/1.1" 403 2508
+INFO 2019-07-26 16:43:24,460 autoreload 586 Watching for file changes with StatReloader
+WARNING 2019-07-26 16:43:27,555 log 228 Forbidden (CSRF token missing or incorrect.): /high/zhuce
+WARNING 2019-07-26 16:43:27,555 basehttp 154 "POST /high/zhuce HTTP/1.1" 403 2508
+WARNING 2019-07-26 16:43:32,329 log 228 Forbidden (CSRF token missing or incorrect.): /high/zhuce
+WARNING 2019-07-26 16:43:32,330 basehttp 154 "POST /high/zhuce HTTP/1.1" 403 2508
+WARNING 2019-07-26 16:43:32,382 log 228 Not Found: /favicon.ico
+WARNING 2019-07-26 16:43:32,382 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2019-07-26 16:43:37,124 basehttp 154 "GET /high/zhuce HTTP/1.1" 200 1000
+WARNING 2019-07-26 16:43:44,757 log 228 Forbidden (CSRF token missing or incorrect.): /high/zhuce
+WARNING 2019-07-26 16:43:44,757 basehttp 154 "POST /high/zhuce HTTP/1.1" 403 2508
+INFO 2019-07-26 16:45:00,061 autoreload 213 D:\wxh\mysite\mysite\settings.py changed, reloading.
+INFO 2019-07-26 16:45:00,957 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-26 16:45:05,856 basehttp 154 "POST /high/zhuce HTTP/1.1" 302 0
+INFO 2019-07-26 16:45:05,859 basehttp 154 "GET /high/index HTTP/1.1" 200 30
+INFO 2019-07-29 09:34:40,787 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-29 09:34:51,758 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2019-07-29 09:34:51,819 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2019-07-29 09:34:51,902 log 228 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\contrib\sites\models.py", line 39, in _get_site_by_request
+    SITE_CACHE[host] = self.get(domain__iexact=host)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\contrib\admin\sites.py", line 399, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\contrib\auth\views.py", line 61, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\views\generic\edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\contrib\auth\views.py", line 95, in get_context_data
+    current_site = get_current_site(self.request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\contrib\sites\shortcuts.py", line 13, in get_current_site
+    return Site.objects.get_current(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\contrib\sites\models.py", line 60, in get_current
+    return self._get_site_by_request(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\contrib\sites\models.py", line 45, in _get_site_by_request
+    SITE_CACHE[domain] = self.get(domain__iexact=domain)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+django.contrib.sites.models.Site.DoesNotExist: Site matching query does not exist.
+ERROR 2019-07-29 09:34:51,912 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 163658
+ERROR 2019-07-29 09:35:11,048 log 228 Internal Server Error: /high/zhuce
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\high\views.py", line 96, in register
+    print(request.META['HTTP_X_FORWOARDED_FOR'])
+KeyError: 'HTTP_X_FORWOARDED_FOR'
+ERROR 2019-07-29 09:35:11,050 basehttp 154 "GET /high/zhuce HTTP/1.1" 500 70151
+WARNING 2019-07-29 09:35:11,356 log 228 Not Found: /favicon.ico
+WARNING 2019-07-29 09:35:11,356 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2019-07-29 09:35:34,646 autoreload 213 D:\wxh\mysite\apps\high\views.py changed, reloading.
+INFO 2019-07-29 09:35:36,356 autoreload 586 Watching for file changes with StatReloader
+ERROR 2019-07-29 09:35:41,329 log 228 Internal Server Error: /high/zhuce
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\high\views.py", line 96, in register
+    print(request.META['HTTP_X_FORWARDED_FOR'])
+KeyError: 'HTTP_X_FORWARDED_FOR'
+ERROR 2019-07-29 09:35:41,330 basehttp 154 "GET /high/zhuce HTTP/1.1" 500 70280
+INFO 2019-07-29 09:36:04,259 autoreload 586 Watching for file changes with StatReloader
+ERROR 2019-07-29 09:36:05,193 log 228 Internal Server Error: /high/zhuce
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\high\views.py", line 96, in register
+    print(request.META['HTTP_X_FORWARDED_FOR'])
+KeyError: 'HTTP_X_FORWARDED_FOR'
+ERROR 2019-07-29 09:36:05,199 basehttp 154 "GET /high/zhuce HTTP/1.1" 500 70280
+INFO 2019-07-29 09:36:18,024 autoreload 213 D:\wxh\mysite\apps\high\views.py changed, reloading.
+INFO 2019-07-29 09:36:19,945 autoreload 586 Watching for file changes with StatReloader
+ERROR 2019-07-29 09:36:27,887 log 228 Internal Server Error: /high/zhuce
+Traceback (most recent call last):
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 484, in connect
+    sock = self._connect()
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 541, in _connect
+    raise err
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\client.py", line 667, in execute_command
+    connection.send_command(*args)
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 484, in connect
+    sock = self._connect()
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 541, in _connect
+    raise err
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Anaconda\envs\tensorflow\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\wxh\mysite\apps\high\views.py", line 97, in register
+    redis_conn.setex('name', 100000, "this is name")
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\client.py", line 1192, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "C:\Users\翁学豪\AppData\Roaming\Python\Python36\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2019-07-29 09:36:27,891 basehttp 154 "GET /high/zhuce HTTP/1.1" 500 137328
+INFO 2019-07-29 09:36:55,354 basehttp 154 "GET /high/zhuce HTTP/1.1" 200 1000
+INFO 2019-07-29 09:39:06,519 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-07-29 09:39:10,359 basehttp 154 "GET /high/zhuce HTTP/1.1" 200 1000

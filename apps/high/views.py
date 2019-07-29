@@ -4,6 +4,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.http import Http404, HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, render_to_response
 from django_redis import get_redis_connection
+
 # 获取redis数据库连接
 redis_conn = get_redis_connection('default')
 # Create your views here.kaskakakak
@@ -92,6 +93,7 @@ def hello_pdf(request):
 
 
 def register(request):
+    print(request.META.keys())
     redis_conn.setex('name', 100000, "this is name")
     # 使用django自带的注册模块
     if request.method == 'POST':

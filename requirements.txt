@@ -1,4 +1,0 @@
-mysqldb
-mysql
-mysql-python
-MySQL-python
